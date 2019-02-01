@@ -25,6 +25,7 @@ matrix:
 branches:
   only:
     - master
+    - relaxed-dependency-version-pins
     - /^v\d/
     - release
 notifications:
